@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+}
+article {
+    margin: 0 auto;
+    text-align: center;
+}
+#snake {
+    margin: 0;
+    padding: 0;
+    border: 5px black solid;
+    line-height: 0;
+}
+#points{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+}
+.snakeGame{
+    display: inline-block;
+}
+.customize{
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+#game {
+    display: inline-block;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake The Game</title>
+    <script src="main.js"></script>
+    <script src = "createjs.min.js"></script>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body onload="init();">
+    <article>
+        <div class="customize">
+            <text> Choose the size of the field: </text> <br />
+            <span> Width:  </span><input type="number" value="16" id="w">
+            <span> Height: </span><input type="number" value="16" id="h">
+            <br /><br />
+
+            <text> Choose the colors of the field: </text> <br />
+            <span> Color 1: </span><input type="color" value="#23A58B" id="c1" />
+            <span> Color 2: </span><input type="color" value="#1B893E" id="c2" />
+            <br /><br />
+
+            <text> Choose the colors of the snake: </text> <br />
+            <span> Color 1: </span><input type="color" value="#F4F200" id="c3" />
+            <span> Color 2: </span><input type="color" value="#2436F4" id="c4" />
+            <br /><br />
+
+        </div>
+        <div id="game">
+            <canvas id="snake" width="480" height="480"></canvas>
+        </div>
+        <div id="points">
+            <text id="res"> 0 </text><text> POINTS </text>
+        </div>
+    </article>
+</body>
+</html>
